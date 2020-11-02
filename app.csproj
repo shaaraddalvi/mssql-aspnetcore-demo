@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
-    <UserSecretsId>aspnet-app-16AB9CD8-FA7F-47DF-BDD1-28881B299692</UserSecretsId>
+    <UserSecretsId>aspnet-app-A5E915F0-713F-4242-B34E-8A6542D3BEC0</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -14,7 +14,6 @@
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.1.14" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.14" />
-
   </ItemGroup>
 
 </Project>
