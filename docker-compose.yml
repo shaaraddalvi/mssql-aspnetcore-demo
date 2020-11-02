@@ -3,11 +3,13 @@ services:
     web:
         build: .
         ports:
-            - "6789:8000"
+            - "8000:8000"
         depends_on:
             - db
         environment:
           - ASPNETCORE_ENVIRONMENT=Development
+          - DOTNET_RUNNING_IN_CONTAINER=true
+          - ASPNETCORE_URLS=http://+:8000
     db:
         image: "mcr.microsoft.com/mssql/server:2019-CU4-ubuntu-18.04"
         ports:
